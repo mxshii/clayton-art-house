@@ -60,10 +60,12 @@ export const AdminLogin: React.FC = () => {
   return (
     <div className="min-h-screen bg-clayton-canvas flex flex-col justify-center py-12 sm:px-6 lg:px-8 relative">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center space-y-3">
-        <Link to="/" className="inline-flex items-center gap-2 mx-auto">
-          <div className="w-10 h-10 rounded-xl bg-clayton-green text-white flex items-center justify-center font-bold text-xl shadow-md">
-            C
-          </div>
+        <Link to="/" className="inline-flex items-center justify-center mx-auto mb-1">
+          <img
+            src="/assets/clayton/logo/Clayton Art House Logo.png"
+            alt="Clayton Art House"
+            className="h-16 sm:h-20 w-auto object-contain"
+          />
         </Link>
         <h1 className="text-2xl sm:text-3xl text-clayton-charcoal tracking-tight font-bold">
           Clayton Admin Portal

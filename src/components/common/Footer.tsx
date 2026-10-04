@@ -22,9 +22,9 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col gap-4">
             <Link to="/">
               <img
-                src="/assets/clayton/logo/clayton-logo.svg"
+                src="/assets/clayton/logo/Clayton Art House Logo.png"
                 alt="Clayton Art House"
-                className="h-12 w-auto object-contain"
+                className="h-12 sm:h-14 w-auto object-contain"
               />
             </Link>
             <p className="font-montserrat text-stone-600 text-xs sm:text-sm leading-relaxed max-w-xs mt-2">

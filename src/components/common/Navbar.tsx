@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
         {/* Official Clayton Brand Logo */}
         <Link to="/" className="group flex items-center gap-2">
           <img
-            src="/assets/clayton/logo/clayton-logo.svg"
+            src="/assets/clayton/logo/Clayton Art House Logo.png"
             alt="Clayton Art House"
             className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
           />

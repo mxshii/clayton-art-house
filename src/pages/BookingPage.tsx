@@ -799,16 +799,23 @@ export const BookingPage: React.FC = () => {
             {/* Booking Pass Card */}
             <div className="bg-white border border-[#E8E2D6] p-8 relative overflow-hidden shadow-sm rounded-2xl">
               {/* Top Header */}
-              <div className="flex items-center justify-between pb-6 border-b border-[#E8E2D6]">
-                <div>
-                  <span className="text-[10px] uppercase text-[#577057] tracking-wider block font-semibold">
-                    Clayton Art House · Booking Pass
-                  </span>
-                  <p className="font-montserrat text-xl font-semibold text-[#28231F] mt-0.5">
-                    {confirmation.workshopTitle || currentWorkshop?.title}
-                  </p>
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[#E8E2D6]">
+                <div className="flex items-center gap-3.5">
+                  <img
+                    src="/assets/clayton/logo/Clayton Art House Logo.png"
+                    alt="Clayton Art House"
+                    className="h-10 sm:h-12 w-auto object-contain"
+                  />
+                  <div>
+                    <span className="text-[10px] uppercase text-[#577057] tracking-wider block font-semibold">
+                      Clayton Art House · Booking Pass
+                    </span>
+                    <p className="font-montserrat text-xl font-semibold text-[#28231F] mt-0.5">
+                      {confirmation.workshopTitle || currentWorkshop?.title}
+                    </p>
+                  </div>
                 </div>
-                <div className="text-right">
+                <div className="sm:text-right">
                   <span className="text-[10px] uppercase text-[#8C8277] block font-medium">Booking #</span>
                   <span className="text-xs font-bold text-[#28231F]">{confirmation.bookingNumber || confirmation.confirmationCode}</span>
                 </div>

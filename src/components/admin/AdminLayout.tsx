@@ -77,8 +77,8 @@ export const AdminLayout: React.FC = () => {
       <div className="md:hidden bg-white border-b border-stone-200 px-4 py-3 flex items-center justify-between sticky top-0 z-40">
         <div className="flex items-center gap-2.5">
           <img
-            src="/assets/clayton/logo/clayton-logo.svg"
-            alt="Clayton"
+            src="/assets/clayton/logo/Clayton Art House Logo.png"
+            alt="Clayton Art House"
             className="h-7 w-auto object-contain"
           />
           <span className="font-bold text-sm text-stone-900">Admin Portal</span>
@@ -111,8 +111,8 @@ export const AdminLayout: React.FC = () => {
           <div className="flex items-center justify-between pb-4 border-b border-stone-100">
             <Link to="/admin" className="flex items-center gap-2.5">
               <img
-                src="/assets/clayton/logo/clayton-logo.svg"
-                alt="Clayton"
+                src="/assets/clayton/logo/Clayton Art House Logo.png"
+                alt="Clayton Art House"
                 className="h-8 w-auto object-contain"
               />
               <div>
