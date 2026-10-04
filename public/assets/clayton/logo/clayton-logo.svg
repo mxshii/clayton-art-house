@@ -1,0 +1,23 @@
+<svg width="140" height="85" viewBox="0 0 140 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clay organic background blob -->
+  <g opacity="0.3">
+    <path d="M72.6 37.4C79.5 55.4 100.2 83.3 114.1 74.1C128.1 64.8 136.6 49.3 136.1 34.6C135.5 19.9 127.4 7.2 116 3.9C104.7 0.7 101.1 17.2 88.3 20.5C75.5 23.8 64.8 16.8 72.6 37.4Z" fill="#CE9781" stroke="#CE9781" stroke-width="6"/>
+  </g>
+  <!-- CLAYTON letterforms in rich olive green #577057 -->
+  <!-- C -->
+  <path d="M12 21C13 20.8 14.1 20.7 15.2 20.7C16.7 20.7 18.2 20.9 19.6 21.3C20.8 21.6 22 22.1 23 22.7V25.3C21.6 23.8 19.5 22.9 17.4 22.9C14.3 22.9 11.5 23.7 9.5 25.5C6.8 28 5.8 31.6 5.8 36.3C5.8 41 6.8 44.7 9.5 47.1C11.5 48.9 14.3 49.8 17.4 49.8C19.5 49.8 21.6 48.9 23 47.4V50C22 50.6 20.8 51.1 19.6 51.4C18.2 51.8 16.7 52 15.2 52C14.1 52 13 51.9 12 51.7C8.2 50.9 5.2 48.5 3.1 44.8C1 41.1 0 36.3 0 30.6C0 24.9 1 20.1 3.1 16.4C5.2 12.7 8.2 10.3 12 9.5V21Z" transform="translate(4, 5) scale(0.65)" fill="#577057"/>
+  <!-- L -->
+  <path d="M0 0H4V30H10V33H0V0Z" transform="translate(26, 21)" fill="#577057"/>
+  <!-- A -->
+  <path d="M5 0L10 33H6.5L5.5 26H2.5L1.5 33H0L5 0ZM4 16L3 23H5L4 16Z" transform="translate(38, 21)" fill="#577057"/>
+  <!-- Y -->
+  <path d="M0 0H3.5L6 17L8.5 0H12L8 23V33H4.5V23L0 0Z" transform="translate(52, 21)" fill="#577057"/>
+  <!-- T -->
+  <path d="M0 0H12V3.5H7.5V33H4.5V3.5H0V0Z" transform="translate(68, 21)" fill="#577057"/>
+  <!-- O -->
+  <path d="M6 0C10 0 12 5 12 16.5C12 28 10 33 6 33C2 33 0 28 0 16.5C0 5 2 0 6 0ZM6 3C4 3 3 7 3 16.5C3 26 4 30 6 30C8 30 9 26 9 16.5C9 7 8 3 6 3Z" transform="translate(83, 21)" fill="#577057"/>
+  <!-- N -->
+  <path d="M0 0H3.5L9 26V0H12V33H8.5L3 7V33H0V0Z" transform="translate(100, 21)" fill="#577057"/>
+  <!-- ART HOUSE Subtitle in warm terracotta #D2825C -->
+  <text x="14" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" fill="#D2825C" letter-spacing="0.32em">ART HOUSE</text>
+</svg>

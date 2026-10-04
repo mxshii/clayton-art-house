@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F6F3EF;
+    color: #28231F;
+    font-family: 'Montserrat', system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.02em;
+    color: #28231F;
+  }
+}
+
+/* Subtle, polished scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F3EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D0C4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #577057;
+}
+
+/* Official Clayton Component Classes */
+@layer components {
+  /* Clayton Primary Olive Green Pill Button */
+  .btn-clayton-green {
+    @apply inline-flex items-center justify-center px-7 py-3 bg-[#577057] text-white text-sm font-semibold rounded-full shadow-[5px_5px_40px_0px_rgba(0,0,0,0.18)] transition-all duration-200 hover:bg-[#425141] hover:shadow-md active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none;
+  }
+
+  /* Clayton Warm Ochre Pill Button */
+  .btn-clayton-ochre {
+    @apply inline-flex items-center justify-center px-7 py-3 bg-[#DFA363] text-white text-sm font-semibold rounded-full shadow-[5px_5px_40px_0px_rgba(0,0,0,0.18)] transition-all duration-200 hover:bg-[#c98e4e] hover:shadow-md active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none;
+  }
+
+  /* Clayton Secondary Outline Pill Button */
+  .btn-clayton-outline {
+    @apply inline-flex items-center justify-center px-7 py-3 border-2 border-[#577057] text-[#577057] bg-white text-sm font-semibold rounded-full transition-all duration-200 hover:bg-[#577057] hover:text-white active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none;
+  }
+
+  /* Signature Clayton Arched Frame */
+  .clayton-arch-frame {
+    @apply w-full aspect-[4/5] border-[2px] lg:border-[3px] border-[#577057] rounded-t-[150px] lg:rounded-t-[200px] overflow-hidden bg-stone-100 transition-transform duration-300;
+  }
+
+  /* Signature Clayton Asymmetric Diagonal Rounded Card */
+  .clayton-card-diagonal {
+    @apply bg-white rounded-tr-2xl rounded-bl-2xl shadow-[5px_5px_40px_0px_rgba(21,21,21,0.08)] transition-all duration-300;
+  }
+
+  .clayton-card-diagonal-lg {
+    @apply bg-white rounded-tr-3xl rounded-bl-3xl shadow-[5px_5px_40px_0px_rgba(21,21,21,0.08)] transition-all duration-300;
+  }
+
+  /* Compatibility & Semantic Aliases */
+  .btn-editorial-sienna {
+    @apply btn-clayton-green;
+  }
+
+  .btn-editorial-primary {
+    @apply btn-clayton-green;
+  }
+
+  .btn-editorial-secondary {
+    @apply btn-clayton-outline;
+  }
+
+  .btn-editorial-text {
+    @apply inline-flex items-center gap-1.5 text-sm font-medium text-[#577057] hover:text-[#425141] transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply btn-clayton-green;
+  }
+
+  .btn-secondary {
+    @apply btn-clayton-outline;
+  }
+
+  /* Badges & Tags */
+  .badge-curatorial {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-[#E8E2D6] text-stone-600 text-xs font-semibold rounded-full shadow-sm;
+  }
+
+  .badge-tag {
+    @apply badge-curatorial;
+  }
+
+  /* Gallery Card Frame */
+  .card-gallery {
+    @apply bg-white border border-[#E8E2D6] rounded-xl overflow-hidden shadow-sm transition-all duration-300 hover:border-[#577057]/60;
+  }
+
+  .card-clayton {
+    @apply card-gallery;
+  }
+
+  /* Form Inputs */
+  .input-editorial {
+    @apply w-full px-4 py-3 bg-white border border-[#E8E2D6] text-stone-900 text-sm placeholder-stone-400 rounded-xl focus:outline-none focus:border-[#577057] focus:ring-1 focus:ring-[#577057]/20 transition-all duration-200;
+  }
+
+  .input-clayton {
+    @apply input-editorial;
+  }
+}
